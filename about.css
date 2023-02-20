@@ -1,0 +1,137 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: black;
+
+}
+
+#nav1 {
+    /* color: green; */
+    background-color: black;
+}
+
+#home {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
+
+#home:hover {
+    background-color: green;
+    border-radius: 20px;
+}
+
+#about {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+    border: transparent;
+}
+
+#about:hover {
+    background-color: green;
+    border-radius: 20px;
+
+
+}
+
+#resume {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
+
+#resume:hover {
+    background-color: green;
+    border-radius: 20px;
+}
+
+#contact {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
+
+#contact:hover {
+    background-color: green;
+    border-radius: 20px;
+}
+
+
+.aimg img {
+    opacity: 5 0%;
+    margin-left: 40px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border-radius: 5%;
+    background-color: darkgray;
+
+}
+
+
+
+.p1 {
+    margin: 6px 0px;
+    font-size: 20px;
+    width: 90%;
+}
+
+.mye {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 32px;
+    font-variant: small-caps;
+}
+
+
+#sk {
+    font-variant: small-caps;
+    color: green;
+}
+
+#pl {
+    font-variant: small-caps;
+}
+
+#py {
+    height: 20%;
+    width: 20%;
+    align-items: center;
+}
+
+.br {
+    border: 3px;
+    /* box-shadow: 0 0 60px rgb(254, 1, 1,.4);  */
+    /* box-shadow: 0 0 60px rgb(89, 59, 30,); */
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) 1;
+
+}
+
+.br:hover {
+    box-shadow: 0 0 60px rgba(68, 147, 3, 0.5);
+}
+
+.work {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer1 {
+    margin: 6px 0px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+#crafted {
+    color: green;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}

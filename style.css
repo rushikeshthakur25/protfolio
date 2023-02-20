@@ -1,0 +1,251 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    /* text-align: left; */
+    background-color: black;
+
+}
+
+#loding {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black url(img/3xwh.gif) no-repeat center;
+    /* background: black url(https://images.squarespace-cdn.com/content/v1/58d008c65016e1f1078cc00a/1590864488323-1PFVYXJJGC430OHZ5NAU/Spotify-Loading-Animation-4.gif?format=750w) no-repeat center; */
+    background-size: 20%;
+    z-index: 1000;
+}
+
+.main-content {
+    z-index: 1;
+}
+
+/* nav */
+
+.nav {
+    
+    /* color: green; */
+    /* background-color: black; */
+    justify-content: end;
+}
+
+#home {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
+
+#home:hover {
+    background-color: green;
+    border-radius: 20px;
+}
+
+#about {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+    border: transparent;
+}
+
+#about:hover {
+    background-color: green;
+    border-radius: 20px;
+
+
+}
+
+#resume {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
+
+#resume:hover {
+    background-color: green;
+    border-radius: 20px;
+}
+
+#contact {
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
+
+#contact:hover {
+    background-color: green;
+    border-radius: 20px;
+}
+
+.align-self-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    transform: translateX(0%) translateZ(0px);
+}
+
+.info {
+    width: 80vw;
+    margin: 6vh auto 0px;
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    /* justify-content: space-between; */
+}
+
+.intro {
+    font-size: 38px;
+    margin: 1vh 0px;
+    color: white;
+    font-variant: small-caps;
+
+}
+
+.name {
+    font-size: 30px;
+    margin: 1.2vh 0px;
+    color: white;
+    font-variant: small-caps;
+}
+
+.r {
+    color: green;
+    font-size: 43px;
+    font-variant: small-caps;
+}
+
+#b {
+    color: green;
+    font-size: 43px;
+    font-variant: small-caps;
+}
+
+.desc {
+    font-size: 38px;
+    margin: 1.6vh 0px;
+    color: white;
+    font-variant: small-caps;
+}
+
+.kJmVUo {
+    display: flex;
+    flex-direction: column;
+    margin: 6vh 0px;
+    font-variant: small-caps;
+    min-height: 200px;
+}
+
+.App {
+    font-family: Kanit, sans-serif;
+}
+
+#img1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 200px;
+}
+
+#img1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 5 0%;
+}
+
+.info1 {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 32px;
+    font-variant: small-caps;
+}
+
+
+/* #info2 {
+    margin-top: 50px;
+    margin-right: 20px;
+} */
+
+.p {
+    height: 90px;
+    width: 90px;
+    margin-left: 167px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+
+}
+
+.p img {
+    display: inline-block;
+    transform: scale(1)rotateY(0deg);
+    transition: all 0.5s ease;
+}
+
+
+.b {
+    height: 90px;
+    width: 90px;
+    margin-left: 167px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+}
+
+.c {
+    height: 90px;
+    width: 90px;
+    margin-left: 167px;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+}
+
+#p1 {
+    /* height: 150px;*/
+    /* width: 150px;  */
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) 1;
+    /* margin-left: 160px; */
+}
+
+#b1 {
+    /* height: 150px;*/
+    /* width: 150px;  */
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) 1;
+    border-radius: 50em;
+    /* margin-left: 160px; */
+
+}
+
+#c1 {
+    /* height: 150px;*/
+    /* width: 150px;  */
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(25, 195, 210), rgb(4, 58, 2)) 1;
+    /* margin-left: 160px; */
+}
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer1 {
+    margin: 6px 0px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+#crafted {
+    color: green;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: Kanit, sans-serif;
+}
